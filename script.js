@@ -10,6 +10,6 @@ function calculatearea () {
   a = document.getElementById('a').value
   b = document.getElementById('b').value
   height = document.getElementById('height').value
-  area = (a + b) * parseFloat(height) /2
+  area = (parseFloat(a) + parseFloat(b)) * parseFloat(height) / 2
   alert(area)
 }
